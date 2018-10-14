@@ -1,0 +1,262 @@
+
+/* 导航整体样式 */
+#nav {
+    width: 100%;
+    height: 564px;
+}
+
+#nav .m {
+    border-bottom: 2px solid #ccc;
+}
+
+.nav_a>a{
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+#nav .logo{
+    text-align: center;
+    float: left;
+    font-size: 0;
+    border-right: 1px solid #ccc;
+}
+
+.logo a img {
+    margin-top: 5px;
+}
+
+#nav .serve {
+    float: right;
+}
+
+.serve>a {
+    float: left;    
+    text-align: center;
+    margin-left: 1px;
+    background-color: #e0e0e0;
+}
+
+.serve .iconfont {
+    display: block;
+    font-size: 20px;
+    margin-top: 14px;
+    color: #8e0d24;
+    font-weight: bold;
+}
+
+.serve span {
+    width: 100%;
+    font-size: 12px;
+    display: block;
+}
+/* 中间导航样式 */
+#nav .menu {
+    width: 1120px;
+    height: 78px;
+    float: left;
+    margin-left: 2px;
+    position: relative;
+}
+.rowlist {
+    position: absolute;
+}
+.rowlist .row {
+    width: 280px;   
+    height: 100%;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+.rowlist .row>a {
+    width: 100%;
+    display: block;
+    line-height: 80px;
+    float: left;
+    transition: all 0.3s;
+}
+
+.rowlist .row>a.active {
+    color: #fff;
+    background-color: black;
+}
+
+.row_content {
+    width: 100%;
+    height: auto;
+    position: relative; 
+    box-shadow: 0 2px 4px #6b6b6b88;
+    display: none;
+}
+
+.row_content .row_box {
+    display: none;
+    width: 100%;
+}
+
+.row_box .collist {
+    width: 16%;
+    height: auto;
+    float: left;
+}
+.row_box .col_content {
+    width: 84%;
+    height: auto;
+    float: right;
+}
+
+.collist .col {
+    width: 210px;
+    height: 58px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.collist .col>a {
+    width: 195px;
+    height: 58px;
+    font-size: 12px;
+    display: block;
+    padding-left: 15px;
+    line-height: 58px;
+    transition: all 0.3s;
+}
+
+.collist .col>a.active {
+    color: #ccc;
+    background-color: #353535;
+}
+
+.col_content .nav_content {
+    width: 100%;
+    height: 480px;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.nav_content .car_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.car_img h3 {
+    font: 18px "微软雅黑";  
+    font-weight: normal;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.car_img p {
+    font: 13px "宋体";
+    color: #8e0d24;
+    position: absolute;
+    top: 38px;
+    left: 20px;
+}
+
+.nav_content .inform {
+    position: absolute;
+    top: 280px;
+}
+
+.inform li {
+    width: 364px;
+    border-right: 1px solid #ccc;
+    float: left;
+}
+
+.inform .no_boder {
+    border: 0;
+}
+
+.inform .little {
+    font: 10px "宋体";
+}
+
+.inform li p {
+    margin-left: 14px;
+}
+
+.nav_content hr {
+    width: 100%;
+    position: absolute;
+    top: 400px;
+    background-color: #ccc;
+}
+
+.nav_content .nav_botm {
+    position: absolute;
+    bottom: 10px;
+}
+
+.nav_botm span {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav_botm span i ,
+.nav_botm span a {
+    vertical-align: middle;
+}
+
+.nav_botm span a {
+    margin-left: 10px; 
+}
+
+.nav_botm span:nth-child(2) {
+    margin-left: 180px;
+}
+
+.nav_botm .icon-wodedingdan {
+    font-size: 24px;
+    color: #8e0d24;
+}
+
+/* 购买工具部分css样式 */
+.row_content .row_box.shop {
+    width: 100%;
+    height: auto;
+    /* margin: 20px 0; */
+    padding: 20px 0;
+}
+
+.shop .col {
+    width: 31%;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    margin-right: 26px;
+    border-bottom: 1px solid #ccc;
+}
+
+.shop .no_boder {
+    border-bottom: none;
+}
+
+.shop .col i {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+    color: #8e0d24;
+    vertical-align: middle;
+}
+.shop .col a {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    display: block;
+} 
+
+.shop .col a:hover {
+    background-color: #e0e0e0;
+}
+
+
